@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.cajafondo1{
+    display: flex;
+    border: 1px rgb(211, 191, 14) solid;
+    height: 8rem;
+    background-color: rgb(253, 237, 143);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+a{
+    height: 5rem;
+    border: 2px !important;
+}
+a:hover{
+    height: 5rem;
+    color: yellow !important;
+}
+h4{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.anime1{
+    transition: transform .8s !important;
+}
+.anime1:hover{
+    transform: scale(2.05);
+}
